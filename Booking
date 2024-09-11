@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt Phòng</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #bbb 1px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .room {
+            background: #fff;
+            border: 1px solid #ddd;
+            margin: 15px;
+            padding: 20px;
+            flex: 1;
+            max-width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .room img {
+            width: 100%;
+            height: auto;
+        }
+        .room h2 {
+            margin-top: 0;
+        }
+        .pricing, .policy {
+            margin-top: 10px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Đặt Phòng - Khách Sạn ABC</h1>
+        </div>
+    </header>
+
+    <div class="container main-content">
+        <div class="room">
+            <img src="room1.jpg" alt="Phòng Deluxe">
+            <h2>Phòng Deluxe</h2>
+            <p class="pricing">Giá: 1.500.000 VNĐ/đêm</p>
+            <p class="policy">Chính sách hủy bỏ: Hủy miễn phí trước 48 giờ. Sau đó, bạn sẽ bị tính phí 50% giá phòng.</p>
+            <a href="booking.html" class="button">Đặt Ngay</a>
+        </div>
+        
+        <div class="room">
+            <img src="room2.jpg" alt="Phòng Executive">
+            <h2>Phòng Executive</h2>
+            <p class="pricing">Giá: 2.000.000 VNĐ/đêm</p>
+            <p class="policy">Chính sách hủy bỏ: Hủy miễn phí trước 24 giờ. Sau đó, bạn sẽ bị tính phí 100% giá phòng.</p>
+            <a href="booking.html" class="button">Đặt Ngay</a>
+        </div>
+
+        <div class="room">
+            <img src="room3.jpg" alt="Phòng Standard">
+            <h2>Phòng Standard</h2>
+            <p class="pricing">Giá: 1.000.000 VNĐ/đêm</p>
+            <p class="policy">Chính sách hủy bỏ: Hủy miễn phí trước 72 giờ. Sau đó, bạn sẽ bị tính phí 30% giá phòng.</p>
+            <a href="booking.html" class="button">Đặt Ngay</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Khách Sạn ABC. Địa chỉ: 123 Đường X, TP.HCM. Liên hệ: 0123-456-789</p>
+    </footer>
+</body>
+</html>
